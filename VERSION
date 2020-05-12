@@ -1,0 +1,12 @@
+version = '1.0'
+
+pre_release = True
+
+if pre_release:
+    pr_type = 'alpha'
+    pr_ver = '1.0'
+    pr_ver_string = f'-{pr_type}_{pr_ver}'
+else:
+    pr_ver_string = '-stable'
+
+version_str = f'{version}{pr_ver_string}'
