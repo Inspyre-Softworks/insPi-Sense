@@ -1,10 +1,6 @@
 import inspy_logger
+from inspi_sense.helpers.constants import PROG_NAME
 
-from inspi_sense.helpers.shapefiles import download_zip
-
-download_zip()
-
-PROG_NAME = 'InsPiSense'
 
 class InsPiSense:
 
