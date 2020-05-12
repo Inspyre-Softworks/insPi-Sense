@@ -15,6 +15,7 @@ geopandas = "*"
 matplotlib = "*"
 pysimpleguiqt = "*"
 pyperclip = "*"
+uszipcode = "*"
 
 [requires]
 python_version = "3.6"
